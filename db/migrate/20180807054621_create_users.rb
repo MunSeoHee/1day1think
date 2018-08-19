@@ -1,0 +1,17 @@
+class CreateUsers < ActiveRecord::Migration[5.0]
+  def change
+    create_table :users do |t|
+      t.string :name
+      t.integer :opinion_num
+      t.boolean :today
+      t.boolean :economy
+      t.boolean :politics
+      t.boolean :society
+      t.boolean :IT
+      t.boolean :culture
+      t.boolean :global
+      t.boolean :random
+      t.timestamps
+    end
+  end
+end

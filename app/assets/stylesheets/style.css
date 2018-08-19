@@ -1,0 +1,121 @@
+body {
+  width: 800px;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.header {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 10px  30px 10px;
+}
+.headerimg{
+  width: 80px;
+  height: 80px;
+  padding: 0;
+}
+.logo{
+  width: 150px;
+  height: 150px;
+  padding: 0;
+}
+.content {
+  height: 850px;
+  margin: 0 15px 0 15px;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+.mainOnedayThink{
+  align-self: center;
+  display: flex;
+  height: 600px;
+  padding: 0 10px 0 10px;
+}
+.container{
+  padding: 0;
+  align-self: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.mainOnedayThink p{
+  font-size: 60px;
+  text-align: center;
+  font: bold;
+  padding: 0 0 60px 0;
+  margin: 0;
+}
+.mainOnedayThink a{
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+  align-self: center;
+  width: 400px;
+}
+.positionThink{
+  border-top: 1px solid black;
+  padding: 0;
+  height: 250px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tabs {
+  display: flex;
+}
+.tabs li {
+  display: inline-block;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box; 
+  color: #999;
+  font-size: 40px;
+}
+.tabs li.active {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.NewsIssue{
+  height: 180px;
+  font-size: 40px;
+  text-align: center;
+}
+.NewsIssue p{
+  padding: 5px 0 0 0;
+}
+.footer{
+  font-size: 40px;
+  text-align: center;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+.writeContnet{
+  font-size: 40px;
+}
+.writeContnet p{
+  margin: 0;
+  padding: 15px;
+}
+.userwrite{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.userwrite textarea{
+  width: 99%;
+  font-size: 40px;
+}
