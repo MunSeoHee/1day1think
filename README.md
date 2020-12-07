@@ -5,7 +5,7 @@
 ```
 ruby
 ruby on rails
-AWS EC2, Ubuntu Linux
+AWS lightsail
 ```
 
 ### 서비스 설명
